@@ -18,9 +18,11 @@ Two different techniques were explored to handle the class imbalance in the data
 1. compute_class_weight from scikit-learn
 2. SMOTE
 
-GridSearchCV was used to try and find the best model using a variety of parameters. If there was more time to work on the project, it would have been great 
+Pyspark models were explored but due to poor performance and limited time to try and solve and improve, others were chosen.
+
+GridSearchCV was implemented to try and find the best model using a variety of parameters. If there was more time to work on the project, it would have been great 
 to explore more parameters and to use GridSearchCV with both methods for handling class imbalance. Due to limited time and computing power, GridSearchCV 
-was implemented only using SMOTE and with a limited variety in the parameters.  
+was implemented only using SMOTE and with a small variety in the parameters.  
 
 GridSearchCV provided well-performing models for DecisionTreeClassifier and RandomForestClassifier but the XGBClassifier performed much better using 
 compute_class_weight for handling class imbalance and using default parameters.
