@@ -1,6 +1,7 @@
 # cs5540_project_fraud_detection
 
-This project is to implement fraud detection using different machine learning techniques in a big data architecture.
+This project is to implement fraud detection using different machine learning techniques in a Kafka architecture. The models developed in this repository are used in architecture found in the following repository:
+https://github.com/AnudeepGadi/fraud_detection_backend
 
 Two datasets were explored and are listed below. Ultimately, dataset 1 was chosen for simplicity of input.
 
@@ -20,11 +21,10 @@ Two different techniques were explored to handle the class imbalance in the data
 
 Pyspark models were explored but due to poor performance and limited time to try and solve and improve, others were chosen.
 
-GridSearchCV was implemented to try and find the best model using a variety of parameters. If there was more time to work on the project, it would have been great 
-to explore more parameters and to use GridSearchCV with both methods for handling class imbalance. Due to limited time and computing power, GridSearchCV 
-was implemented only using SMOTE and with a small variety in the parameters.  
+GridSearchCV was implemented to try and find the best model using a variety of parameters. If there was more time to work on the project, more parameters would have been explored and GridSearchCV would have been performed with both methods for handling class imbalance. Due to limited time and computing power, GridSearchCV was implemented only using SMOTE and with a small variety in the parameters.  
 
 GridSearchCV provided well-performing models for DecisionTreeClassifier and RandomForestClassifier but the XGBClassifier performed much better using 
 compute_class_weight for handling class imbalance and using default parameters.
 
-Those three models are used...
+
+
