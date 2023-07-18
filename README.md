@@ -1,6 +1,6 @@
 # cs5540_project_fraud_detection
 
-This project is to implement fraud detection using different machine learning techniques in a Kafka architecture. The models developed in this repository are used in architecture found in the following repository:
+This project is to implement fraud detection using different machine learning techniques in a Kafka architecture. The models developed in this repository are used in the architecture found in the following repository:
 https://github.com/AnudeepGadi/fraud_detection_backend
 
 Two datasets were explored and are listed below. Ultimately, dataset 1 was chosen for simplicity of input.
